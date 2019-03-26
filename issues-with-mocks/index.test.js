@@ -5,7 +5,7 @@ const findEmployees = require('./index')
 
 describe('filtering employees', () => {
   it('can filter for employees based off tenure', () => {
-    fetchEmployees.mockImplementation(() => {
+    fetchEmployees.mockImplementationOnce(() => {
       return Promise.resolve({
         employees: [
           { name: 'Alice', department: 'Engineering', tenure: 3 },
@@ -26,6 +26,8 @@ describe('filtering employees', () => {
   })
 
   it('can filter based on department', () => {
+    // update jest.config.js and this test will start failing
+    // can you fix it?
     return findEmployees({ department: 'Engineering' }).then(employees => {
       expect(employees).toEqual([
         {
