@@ -14,6 +14,7 @@
     "using-jest": "jest using-jest",
     "writing-good-tests": "jest writing-good-tests",
     "refactoring-with-tests": "jest refactoring-with-tests",
-    "finding-employees-tdd": "jest finding-employees-tdd"
+    "finding-employees-tdd": "jest finding-employees-tdd",
+    "testing-promises": "jest testing-promises"
   }
 }
