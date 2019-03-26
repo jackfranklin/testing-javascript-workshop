@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "chalk": "^2.4.2",
+    "jest": "^24.5.0",
     "prettier": "^1.16.4"
   },
   "scripts": {
-    "intro-hunting-down-bugs": "node intro-hunting-down-bugs/tests.js"
+    "intro-hunting-down-bugs": "node intro-hunting-down-bugs/tests.js",
+    "our-own-test-framework": "node our-own-test-framework/tests.js",
+    "using-jest": "jest using-jest"
   }
 }
