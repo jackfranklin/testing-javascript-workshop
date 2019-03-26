@@ -12,6 +12,8 @@
     "intro-hunting-down-bugs": "node intro-hunting-down-bugs/tests.js",
     "our-own-test-framework": "node our-own-test-framework/tests.js",
     "using-jest": "jest using-jest",
+    "writing-good-tests": "jest writing-good-tests",
+    "refactoring-with-tests": "jest refactoring-with-tests",
     "finding-employees-tdd": "jest finding-employees-tdd"
   }
 }
