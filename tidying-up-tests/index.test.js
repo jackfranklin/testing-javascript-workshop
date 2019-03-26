@@ -26,8 +26,14 @@ describe('filtering employees', () => {
   })
 
   it('can filter based on department', () => {
-    // update jest.config.js and this test will start failing
-    // can you fix it?
+    fetchEmployees.mockImplementationOnce(() => {
+      return Promise.resolve({
+        employees: [
+          { name: 'Alice', department: 'Engineering', tenure: 3 },
+          { name: 'Bob', department: 'HR', tenure: 2 },
+        ],
+      })
+    })
     return findEmployees({ department: 'Engineering' }).then(employees => {
       expect(employees).toEqual([
         {
