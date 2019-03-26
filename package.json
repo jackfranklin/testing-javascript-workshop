@@ -5,5 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "intro-hunting-down-bugs": "node intro-hunting-down-bugs/tests.js"
   }
 }
