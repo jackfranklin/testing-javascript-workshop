@@ -11,6 +11,7 @@
   "scripts": {
     "intro-hunting-down-bugs": "node intro-hunting-down-bugs/tests.js",
     "our-own-test-framework": "node our-own-test-framework/tests.js",
-    "using-jest": "jest using-jest"
+    "using-jest": "jest using-jest",
+    "finding-employees-tdd": "jest finding-employees-tdd"
   }
 }
