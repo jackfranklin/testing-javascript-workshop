@@ -25,12 +25,14 @@
     "testing-the-dom": "jest testing-the-dom",
     "testing-timeouts": "jest testing-timeouts",
     "testing-react": "jest testing-react",
-    "employee-finder-react": "jest run-employee-finder-react",
+    "test-data-bot": "jest test-data-bot",
+    "employee-finder-react": "parcel testing-react/index.html",
     "tidying-up-tests": "jest tidying-up-tests"
   },
   "dependencies": {
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-testing-library": "^6.0.3"
+    "react-testing-library": "^6.0.3",
+    "test-data-bot": "^0.8.0"
   }
 }
