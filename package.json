@@ -17,6 +17,8 @@
     "finding-employees-tdd": "jest finding-employees-tdd",
     "testing-promises": "jest testing-promises",
     "issues-with-mocks": "jest issues-with-mocks",
+    "async-await-promises": "jest async-await-promises",
+    "tests-for-existing-code": "jest tests-for-existing-code",
     "tidying-up-tests": "jest tidying-up-tests"
   }
 }
