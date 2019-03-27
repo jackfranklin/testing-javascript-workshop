@@ -10,6 +10,8 @@ describe('EventHub', () => {
     eventHub.listen('foo', () => {
       called = true
     })
+
+    eventHub.trigger('foo')
     expect(called).toEqual(true)
   })
 

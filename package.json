@@ -24,6 +24,8 @@
     "using-spies": "jest using-spies",
     "testing-the-dom": "jest testing-the-dom",
     "testing-timeouts": "jest testing-timeouts",
+    "testing-react": "jest testing-react",
+    "employee-finder-react": "jest run-employee-finder-react",
     "tidying-up-tests": "jest tidying-up-tests"
   },
   "dependencies": {
